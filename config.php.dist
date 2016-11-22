@@ -7,3 +7,4 @@ define("OAUTH_TOKEN", "xxxxxxxxxxxx");
 define("OAUTH_SECRET", "xxxxxxxxxx");
 
 $spath = dirname(__FILE__)."/tweets";
+$searchfor = array('#openfest2016telefon');

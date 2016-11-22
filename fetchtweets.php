@@ -23,6 +23,6 @@ class SampleConsumer extends OauthPhirehose {
 
 
 $sc = new SampleConsumer(OAUTH_TOKEN, OAUTH_SECRET, Phirehose::METHOD_FILTER);
-$sc->savepath=$spath;
-$sc->setTrack(array('#openfest2016telefon'));
+$sc->savepath = $spath;
+$sc->setTrack($searchfor);
 $sc->consume();
